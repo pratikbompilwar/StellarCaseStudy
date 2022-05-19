@@ -1,8 +1,10 @@
-﻿namespace RetailerAPI.Business
+﻿using RetailerAPI.Common.Exception;
+
+namespace RetailerAPI.Business
 {
     public class RewardsManager 
     {
-
+       
         /// <summary>
         /// Given method returns the Rewards points as per purchase amount
         /// </summary>
@@ -10,6 +12,10 @@
         /// <returns>rewards point</returns>
         public static int GetRewardsPointsByAmount (int purchaseAmount)
         {
+            if(purchaseAmount < 0)
+            {
+                throw new RewardsAppException("Error :Invalid purchase amount value.Purchase amount cannot be less than zero.");
+            }
             // applying first condition for calculating rewardsPoint
             int rewardsPoint = purchaseAmount > 50 ? (purchaseAmount - 50) : 0;
 

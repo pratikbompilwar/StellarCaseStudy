@@ -25,3 +25,13 @@ C:\Users\Palash\OneDrive\Desktop\StellarTest\StellarRetailer\RetailerAPI\obj\Deb
 C:\Users\Palash\OneDrive\Desktop\StellarTest\StellarRetailer\RetailerAPI\obj\Debug\net6.0\ref\RetailerAPI.dll
 C:\Users\Palash\OneDrive\Desktop\StellarTest\StellarRetailer\RetailerAPI\obj\Debug\net6.0\RetailerAPI.pdb
 C:\Users\Palash\OneDrive\Desktop\StellarTest\StellarRetailer\RetailerAPI\obj\Debug\net6.0\RetailerAPI.genruntimeconfig.cache
+C:\Users\Palash\OneDrive\Desktop\StellarTest\StellarRetailer\RetailerAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Palash\OneDrive\Desktop\StellarTest\StellarRetailer\RetailerAPI\bin\Debug\net6.0\Serilog.dll
+C:\Users\Palash\OneDrive\Desktop\StellarTest\StellarRetailer\RetailerAPI\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\Palash\OneDrive\Desktop\StellarTest\StellarRetailer\RetailerAPI\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\Palash\OneDrive\Desktop\StellarTest\StellarRetailer\RetailerAPI\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\Palash\OneDrive\Desktop\StellarTest\StellarRetailer\RetailerAPI\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\Palash\OneDrive\Desktop\StellarTest\StellarRetailer\RetailerAPI\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\Palash\OneDrive\Desktop\StellarTest\StellarRetailer\RetailerAPI\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\Palash\OneDrive\Desktop\StellarTest\StellarRetailer\RetailerAPI\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\Palash\OneDrive\Desktop\StellarTest\StellarRetailer\RetailerAPI\bin\Debug\net6.0\Serilog.Sinks.File.dll
