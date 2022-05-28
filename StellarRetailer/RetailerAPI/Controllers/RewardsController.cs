@@ -9,9 +9,11 @@ namespace RetailerAPI.Controllers
     public class RewardsController : Controller
     {
         private readonly ILogger logger;
-        public RewardsController(ILogger<RewardsController> _logger)
+        private readonly IRewardsManager rewardsManager;
+        public RewardsController(ILogger<RewardsController> _logger, IRewardsManager _rewardsManager)
         {
             logger = _logger;
+            rewardsManager = _rewardsManager;
         }
 
         // GET: api/Rewards/GetRewardPoints/50
@@ -22,7 +24,7 @@ namespace RetailerAPI.Controllers
             try
             {
                 logger.LogInformation("GetRewardsPointByAmount Method called from RewardsController with purcahse amount : " + purchaseAmount);
-                int result = RewardsManager.GetRewardsPointsByAmount(purchaseAmount);
+                int result = rewardsManager.GetRewardsPointsByAmount(purchaseAmount);
 
                 logger.LogInformation("Returning rewards points : " + result + " for the purchase amount : " + purchaseAmount);
                 return Ok(result);

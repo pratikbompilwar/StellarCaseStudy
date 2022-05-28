@@ -2,7 +2,7 @@
 
 namespace RetailerAPI.Business
 {
-    public class RewardsManager 
+    public class RewardsManager : IRewardsManager
     {
        
         /// <summary>
@@ -10,7 +10,7 @@ namespace RetailerAPI.Business
         /// </summary>
         /// <param name="purchaseAmount"></param>
         /// <returns>rewards point</returns>
-        public static int GetRewardsPointsByAmount (int purchaseAmount)
+        public  int GetRewardsPointsByAmount (int purchaseAmount)
         {
             if(purchaseAmount < 0)
             {
